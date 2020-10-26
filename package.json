@@ -1,0 +1,24 @@
+{
+  "name": "yan-css",
+  "version": "1.0.0",
+  "description": "Public styles libary",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OVYVO/yan-css.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "vue12306@163.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OVYVO/yan-css/issues"
+  },
+  "homepage": "https://github.com/OVYVO/yan-css#readme"
+}
