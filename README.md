@@ -11,5 +11,5 @@ npm i yan-css -S
 ```
 
 ```js
-import xxx from 'yan-css';
+import 'yan-css';
 ```
