@@ -12,5 +12,5 @@ gulp.task("less", function () {
       keepBreaks: true,
       keepSpecialComments: '*'
     }))
-    .pipe(gulp.dest("dist"))
+    .pipe(gulp.dest("lib"))
 })

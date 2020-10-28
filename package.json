@@ -2,10 +2,9 @@
   "name": "yan-css",
   "version": "1.0.0",
   "description": "Public styles libary",
-  "main": "lib/index.js",
+  "main": "lib/index.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp"
+    "build": "gulp less"
   },
   "repository": {
     "type": "git",
@@ -13,6 +12,10 @@
   },
   "keywords": [
     "css"
+  ],
+  "files": [
+    "lib",
+    "styles"
   ],
   "author": "vue12306@163.com",
   "license": "ISC",
