@@ -5,8 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server --config webpack.config.js",
-    "build": "webpack --config webpack.config.js"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -20,5 +19,18 @@
   "bugs": {
     "url": "https://github.com/OVYVO/yan-css/issues"
   },
-  "homepage": "https://github.com/OVYVO/yan-css#readme"
+  "homepage": "https://github.com/OVYVO/yan-css#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-less": "^4.0.1",
+    "gulp-postcss": "^9.0.0"
+  },
+  "dependencies": {
+    "gulp-autoprefixer": "^7.0.1"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
 }
