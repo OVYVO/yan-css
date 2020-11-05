@@ -1,6 +1,6 @@
 {
   "name": "yan-css",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Public styles libary",
   "main": "lib/index.css",
   "scripts": {
